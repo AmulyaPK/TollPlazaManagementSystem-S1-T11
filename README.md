@@ -5,14 +5,17 @@
 <details>
   <summary>Detail</summary>
   
-Semester: 3rd Sem B. Tech. CSE
+> Semester: 3rd Sem B. Tech. CSE
 
-Section: S1
-  
-### Team Members:
-1. Amulya Paathipati Kolar, 231CS111,  amulyapaathipatikolar.231cs111@nitk.edu.in
-2. Preeti Mondal, 231CS144, preetimondal.231cs144@nitk.edu.in
-3. Vanshika Mittal, 231CS163, vanshikamittal.231cs163@nitk.edu.in
+> Section: S1
+
+> Team ID: S1-T11
+
+> Member 1: Amulya Paathipati Kolar, 231CS111,  amulyapaathipatikolar.231cs111@nitk.edu.in
+
+> Member 2: Preeti Mondal, 231CS144, preetimondal.231cs144@nitk.edu.in
+
+> Member 3: Vanshika Mittal, 231CS163, vanshikamittal.231cs163@nitk.edu.in
 </details>
 
 <!-- Second Section -->
@@ -33,6 +36,13 @@ Section: S1
      - If balance is sufficient, payment is authenticated using a Cyclic Redundancy Check (CRC) Checksum Algorithm, and a green light will indicate that the vehicle can pass.
      - If balance is insufficient or payment fails, a red light will indicate the vehicle is not allowed to pass.
  
+</details>
+
+## Functional Block Diagram
+<details>
+  <summary>Detail</summary>
+
+  > Insert functional flowchart.
 </details>
 
 <!-- Third Section -->
@@ -57,4 +67,22 @@ Section: S1
   <summary>Detail</summary>
 
   > Neatly update the Verilog code in code style only.
+</details>
+
+## References
+<details>
+  <summary>Detail</summary>
+  
+  > National Payments Corporation of India. _Evolution and Innovations in the Tolling Industry._<br/>
+  > (https://www.npci.org.in/PDF/npci/knowledge-center/partner-whitepapers/Evolution-and-Innovations-in-the-Tolling-Industry.pdf)
+
+  > Aeologic Technologies. _How RFID Solutions are Changing Toll Collection Systems._ <br/>
+  > (https://www.linkedin.com/pulse/how-rfid-solutions-changing-toll-collection-systems-xf1nc/)
+
+  > GeeksforGeeks. _Luhn algorithm._ <br/>
+  > (https://www.geeksforgeeks.org/luhn-algorithm/)
+
+  > TutorialsPoint. _Explain the Cyclic Redundancy Checks._ <br/>
+  > (https://www.tutorialspoint.com/explain-the-cyclic-redundancy-checks-crcs)
+  
 </details>
