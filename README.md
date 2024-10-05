@@ -41,8 +41,9 @@
 ## Functional Block Diagram
 <details>
   <summary>Detail</summary>
+  
+![S1-T11 drawio](https://github.com/user-attachments/assets/a72f91d2-8ab6-482d-8920-6cf7948c18bd)
 
-  > Insert functional flowchart.
 </details>
 
 <!-- Third Section -->
