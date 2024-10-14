@@ -33,7 +33,7 @@
      - Vehicles with Fastag will be segregated into lanes based on their weight.
      - Vehicles without Fastag will be directed to a cash counter.
   3. Balance Check and Payment Authentication: At the toll gate, the system will check the Fastag balance:
-     - If balance is sufficient, payment is authenticated using a Cyclic Redundancy Check (CRC) Checksum Algorithm, and a green light will indicate that the vehicle can pass.
+     - If balance is sufficient, payment is authenticated and a green light will indicate that the vehicle can pass.
      - If balance is insufficient or payment fails, a red light will indicate the vehicle is not allowed to pass.
  
 </details>
@@ -82,8 +82,5 @@
 
   > GeeksforGeeks. _Luhn algorithm._ <br/>
   > (https://www.geeksforgeeks.org/luhn-algorithm/)
-
-  > TutorialsPoint. _Explain the Cyclic Redundancy Checks._ <br/>
-  > (https://www.tutorialspoint.com/explain-the-cyclic-redundancy-checks-crcs)
   
 </details>
