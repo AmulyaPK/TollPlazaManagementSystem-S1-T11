@@ -397,374 +397,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1350,690)" to="(1370,690)"/>
     <wire from="(870,320)" to="(870,500)"/>
     <wire from="(900,310)" to="(1360,310)"/>
-    <comp loc="(1450,690)" name="ctr_3bit_updown"/>
-    <comp lib="0" loc="(600,710)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="bike"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(123,999)" name="Text">
+    <comp lib="6" loc="(122,1026)" name="Text">
       <a name="text" val="INSTRUCTIONS"/>
       <a name="font" val="Segoe UI Semilight bold 16"/>
-    </comp>
-    <comp lib="5" loc="(1760,700)" name="LED">
-      <a name="color" val="#2ef03c"/>
-    </comp>
-    <comp lib="0" loc="(1540,1040)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Queue Length"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp loc="(1400,670)" name="payment_processor"/>
-    <comp lib="5" loc="(70,740)" name="Button">
-      <a name="label" val="Priority Velhicle"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="5" loc="(1540,1070)" name="LED">
-      <a name="color" val="#20f031"/>
-    </comp>
-    <comp lib="0" loc="(1540,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Queue Length"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="5" loc="(1760,1050)" name="LED">
-      <a name="color" val="#2ef03c"/>
-    </comp>
-    <comp lib="0" loc="(660,710)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="car"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1450,330)" name="ctr_3bit_updown"/>
-    <comp lib="6" loc="(194,160)" name="Text">
-      <a name="text" val="Amulya Paathipati Kolar, 231CS111"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp loc="(1450,860)" name="ctr_3bit_updown"/>
-    <comp loc="(1400,840)" name="payment_processor"/>
-    <comp lib="0" loc="(820,650)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="bit0" val="1"/>
-      <a name="bit1" val="0"/>
-    </comp>
-    <comp lib="6" loc="(1468,729)" name="Text">
-      <a name="text" val="Lane4"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="6" loc="(116,134)" name="Text">
-      <a name="text" val="Team ID:"/>
-      <a name="font" val="Segoe UI Semilight bold 16"/>
-    </comp>
-    <comp loc="(1400,1020)" name="payment_processor"/>
-    <comp lib="6" loc="(1790,360)" name="Text">
-      <a name="text" val="Payment Successful"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="0" loc="(1540,690)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Queue Length"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="6" loc="(1781,96)" name="Text">
-      <a name="text" val="Not enough balance"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="1" loc="(400,600)" name="AND Gate"/>
-    <comp lib="6" loc="(1781,806)" name="Text">
-      <a name="text" val="Not enough balance"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="5" loc="(1760,870)" name="LED">
-      <a name="color" val="#2ef03c"/>
-    </comp>
-    <comp lib="6" loc="(378,1113)" name="Text">
-      <a name="text" val="5. Using Ctrl+K, simulate regular clock pulse to ensure vehicles dequeued at regular frequency"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp lib="1" loc="(420,530)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(240,910)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="6" loc="(1468,369)" name="Text">
-      <a name="text" val="Lane 2"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="6" loc="(420,103)" name="Text">
-      <a name="text" val="OVERALL CIRCUIT"/>
-      <a name="font" val="Segoe UI Semilight bold 16"/>
-    </comp>
-    <comp loc="(250,440)" name="luhn-gate"/>
-    <comp loc="(1400,310)" name="payment_processor"/>
-    <comp lib="2" loc="(1290,730)" name="Multiplexer">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="6" loc="(1468,189)" name="Text">
-      <a name="text" val="Lane1"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="0" loc="(1540,510)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Queue Length"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="6" loc="(1790,890)" name="Text">
-      <a name="text" val="Payment Successful"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="6" loc="(309,1067)" name="Text">
-      <a name="text" val="3. Enqueue Vehicle, it will be added to appropriate lane if Fastag verified"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp lib="1" loc="(440,420)" name="AND Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1760,160)" name="LED">
-      <a name="color" val="#2ef03c"/>
-    </comp>
-    <comp lib="6" loc="(70,557)" name="Text">
-      <a name="text" val="Fastag Id"/>
-      <a name="font" val="Segoe UI Symbol bold 12"/>
-    </comp>
-    <comp loc="(1450,510)" name="ctr_3bit_updown"/>
-    <comp lib="6" loc="(459,68)" name="Text">
-      <a name="text" val="TOLL PLAZA MANAGEMENT AND PAYMENT GATEWAY SYSTEM"/>
-      <a name="font" val="Verdana bold 18"/>
-    </comp>
-    <comp lib="1" loc="(460,530)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="2" loc="(1030,620)" name="Decoder">
-      <a name="select" val="3"/>
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="5" loc="(1760,290)" name="LED">
-      <a name="color" val="#f02346"/>
-    </comp>
-    <comp lib="5" loc="(1760,110)" name="LED">
-      <a name="color" val="#f02346"/>
-    </comp>
-    <comp lib="6" loc="(1781,456)" name="Text">
-      <a name="text" val="Not enough balance"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="0" loc="(710,710)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="truck"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1450,150)" name="ctr_3bit_updown"/>
-    <comp lib="6" loc="(1384,981)" name="Text">
-      <a name="text" val="BIKE LANES"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="5" loc="(1540,720)" name="LED">
-      <a name="color" val="#20f031"/>
-    </comp>
-    <comp lib="6" loc="(484,624)" name="Text">
-      <a name="text" val="Non-Priority Vehicle"/>
-      <a name="font" val="Segoe UI Symbol bold 11"/>
-    </comp>
-    <comp lib="0" loc="(1540,460)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Balance"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
-    </comp>
-    <comp lib="5" loc="(1760,520)" name="LED">
-      <a name="color" val="#2ef03c"/>
-    </comp>
-    <comp lib="5" loc="(1540,540)" name="LED">
-      <a name="color" val="#20f031"/>
-    </comp>
-    <comp loc="(990,570)" name="lane_separation"/>
-    <comp lib="0" loc="(1540,860)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Queue Length"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="6" loc="(1790,1070)" name="Text">
-      <a name="text" val="Payment Successful"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="5" loc="(1760,1000)" name="LED">
-      <a name="color" val="#f02346"/>
-    </comp>
-    <comp lib="6" loc="(513,405)" name="Text">
-      <a name="text" val="Fastag not verified"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="6" loc="(1468,549)" name="Text">
-      <a name="text" val="Lane3"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="6" loc="(1781,276)" name="Text">
-      <a name="text" val="Not enough balance"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="5" loc="(1760,340)" name="LED">
-      <a name="color" val="#2ef03c"/>
-    </comp>
-    <comp lib="6" loc="(1790,180)" name="Text">
-      <a name="text" val="Payment Successful"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp loc="(170,740)" name="vehicle_priority">
-      <a name="label" val="Priority Check"/>
-    </comp>
-    <comp lib="6" loc="(242,957)" name="Text">
-      <a name="text" val="Emergency Vehicle Exit"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-      <a name="valign" val="bottom"/>
-    </comp>
-    <comp lib="0" loc="(1220,100)" name="Constant">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="2" loc="(1290,900)" name="Multiplexer">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="5" loc="(1760,470)" name="LED">
-      <a name="color" val="#f02346"/>
-    </comp>
-    <comp lib="5" loc="(1540,360)" name="LED">
-      <a name="color" val="#20f031"/>
-    </comp>
-    <comp lib="0" loc="(820,560)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Ticket Price"/>
-      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
-    </comp>
-    <comp loc="(1400,130)" name="payment_processor"/>
-    <comp lib="5" loc="(1760,650)" name="LED">
-      <a name="color" val="#f02346"/>
-    </comp>
-    <comp lib="0" loc="(1540,990)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Balance"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
-    </comp>
-    <comp lib="6" loc="(132,1091)" name="Text">
-      <a name="text" val="4. Update Ticket Price"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp lib="0" loc="(1540,280)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Balance"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
-    </comp>
-    <comp lib="6" loc="(1790,720)" name="Text">
-      <a name="text" val="Payment Successful"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="2" loc="(1290,190)" name="Multiplexer">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="5" loc="(1540,180)" name="LED">
-      <a name="color" val="#20f031"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
-    </comp>
-    <comp lib="5" loc="(1540,890)" name="LED">
-      <a name="color" val="#20f031"/>
-    </comp>
-    <comp lib="5" loc="(550,720)" name="Button">
-      <a name="label" val="Vehicle Type"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="2" loc="(1290,370)" name="Multiplexer">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp lib="1" loc="(640,620)" name="AND Gate"/>
-    <comp lib="0" loc="(1540,810)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Balance"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
-    </comp>
-    <comp lib="6" loc="(318,1021)" name="Text">
-      <a name="text" val="1. Using Priority Vehicle button, indicate whether vehicle is of priority or not"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp loc="(1400,490)" name="payment_processor"/>
-    <comp lib="6" loc="(1389,268)" name="Text">
-      <a name="text" val="TRUCK LANES"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="2" loc="(1290,1080)" name="Multiplexer">
-      <a name="disabled" val="0"/>
-    </comp>
-    <comp loc="(700,610)" name="segregate"/>
-    <comp lib="0" loc="(130,520)" name="Splitter">
-      <a name="fanout" val="16"/>
-      <a name="incoming" val="16"/>
-    </comp>
-    <comp lib="6" loc="(1468,1079)" name="Text">
-      <a name="text" val="Lane6"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp lib="0" loc="(810,600)" name="Clock">
-      <a name="label" val="Dequeue Vehicle"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="5" loc="(800,730)" name="Button">
-      <a name="label" val="Enqueue Vehicle"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="6" loc="(484,639)" name="Text">
-      <a name="text" val="with fastag verified"/>
-      <a name="font" val="Segoe UI Symbol bold 11"/>
-    </comp>
-    <comp lib="6" loc="(445,335)" name="Text">
-      <a name="text" val="Cash Payment"/>
-      <a name="font" val="Segoe UI Variable bold 14"/>
-    </comp>
-    <comp lib="6" loc="(168,214)" name="Text">
-      <a name="text" val="Vanshika Mittal, 231CS163"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp lib="6" loc="(304,1042)" name="Text">
-      <a name="text" val="2. Input Vehicle's 16-bit Fastag ID and select Vehicle Type using button"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp lib="6" loc="(164,188)" name="Text">
-      <a name="text" val="Preeti Mondal, 231CS144"/>
-      <a name="font" val="Segoe UI plain 14"/>
-    </comp>
-    <comp lib="5" loc="(440,360)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#f00807"/>
     </comp>
     <comp lib="2" loc="(1290,550)" name="Multiplexer">
       <a name="disabled" val="0"/>
@@ -777,24 +412,43 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
-    <comp lib="6" loc="(1781,636)" name="Text">
-      <a name="text" val="Not enough balance"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
+    <comp lib="1" loc="(440,420)" name="AND Gate">
+      <a name="facing" val="north"/>
     </comp>
-    <comp lib="6" loc="(1468,899)" name="Text">
-      <a name="text" val="Lane5"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
+    <comp loc="(250,440)" name="luhn-gate"/>
+    <comp lib="0" loc="(1540,460)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Balance"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
     </comp>
-    <comp lib="5" loc="(1760,820)" name="LED">
+    <comp lib="5" loc="(1760,650)" name="LED">
       <a name="color" val="#f02346"/>
     </comp>
-    <comp lib="6" loc="(1391,630)" name="Text">
-      <a name="text" val="CAR LANES"/>
+    <comp loc="(1450,150)" name="ctr_3bit_updown"/>
+    <comp lib="6" loc="(1790,360)" name="Text">
+      <a name="text" val="Payment Successful"/>
       <a name="font" val="Segoe UI Symbol bold 13"/>
     </comp>
-    <comp lib="6" loc="(1781,986)" name="Text">
-      <a name="text" val="Not enough balance"/>
+    <comp lib="0" loc="(710,710)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="truck"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(1290,900)" name="Multiplexer">
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp loc="(1400,490)" name="payment_processor"/>
+    <comp lib="6" loc="(1790,890)" name="Text">
+      <a name="text" val="Payment Successful"/>
       <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="5" loc="(800,730)" name="Button">
+      <a name="label" val="Enqueue Vehicle"/>
+      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="0" loc="(1540,100)" name="Pin">
       <a name="facing" val="west"/>
@@ -804,6 +458,62 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Semilight bold 14"/>
     </comp>
+    <comp lib="6" loc="(70,557)" name="Text">
+      <a name="text" val="Fastag Id"/>
+      <a name="font" val="Segoe UI Symbol bold 12"/>
+    </comp>
+    <comp lib="6" loc="(242,957)" name="Text">
+      <a name="text" val="Emergency Vehicle Exit"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+      <a name="valign" val="bottom"/>
+    </comp>
+    <comp lib="2" loc="(1030,620)" name="Decoder">
+      <a name="select" val="3"/>
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="1" loc="(460,530)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(700,610)" name="segregate">
+      <a name="label" val="Segregator"/>
+    </comp>
+    <comp lib="5" loc="(1760,340)" name="LED">
+      <a name="color" val="#2ef03c"/>
+    </comp>
+    <comp lib="0" loc="(1540,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Queue Length"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp loc="(1400,840)" name="payment_processor"/>
+    <comp lib="6" loc="(420,103)" name="Text">
+      <a name="text" val="OVERALL CIRCUIT"/>
+      <a name="font" val="Segoe UI Semilight bold 16"/>
+    </comp>
+    <comp lib="0" loc="(1540,990)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Balance"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
+    </comp>
+    <comp lib="0" loc="(1220,100)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1760,290)" name="LED">
+      <a name="color" val="#f02346"/>
+    </comp>
+    <comp lib="5" loc="(1760,470)" name="LED">
+      <a name="color" val="#f02346"/>
+    </comp>
+    <comp lib="6" loc="(484,639)" name="Text">
+      <a name="text" val="with fastag verified"/>
+      <a name="font" val="Segoe UI Symbol bold 11"/>
+    </comp>
     <comp lib="0" loc="(1540,640)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -812,14 +522,322 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Semilight bold 14"/>
     </comp>
+    <comp lib="5" loc="(1540,1070)" name="LED">
+      <a name="color" val="#20f031"/>
+      <a name="label" val="New Vehicle"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
+    </comp>
+    <comp lib="6" loc="(1466,589)" name="Text">
+      <a name="text" val="Lane3"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(164,188)" name="Text">
+      <a name="text" val="Preeti Mondal, 231CS144"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp lib="0" loc="(660,710)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="car"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1540,860)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Queue Length"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="5" loc="(1760,1050)" name="LED">
+      <a name="color" val="#2ef03c"/>
+    </comp>
+    <comp lib="1" loc="(400,600)" name="AND Gate"/>
+    <comp lib="6" loc="(513,405)" name="Text">
+      <a name="text" val="Fastag not verified"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(1384,981)" name="Text">
+      <a name="text" val="BIKE LANES"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(168,214)" name="Text">
+      <a name="text" val="Vanshika Mittal, 231CS163"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp loc="(1450,330)" name="ctr_3bit_updown"/>
+    <comp lib="6" loc="(194,160)" name="Text">
+      <a name="text" val="Amulya Paathipati Kolar, 231CS111"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp lib="6" loc="(1389,268)" name="Text">
+      <a name="text" val="TRUCK LANES"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(1781,986)" name="Text">
+      <a name="text" val="Not enough balance"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp loc="(1450,690)" name="ctr_3bit_updown"/>
+    <comp loc="(1450,510)" name="ctr_3bit_updown"/>
+    <comp lib="5" loc="(550,720)" name="Button">
+      <a name="label" val="Vehicle Type"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1760,1000)" name="LED">
+      <a name="color" val="#f02346"/>
+    </comp>
+    <comp lib="1" loc="(640,620)" name="AND Gate"/>
+    <comp lib="6" loc="(1466,1115)" name="Text">
+      <a name="text" val="Lane6"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp loc="(1450,1040)" name="ctr_3bit_updown"/>
+    <comp lib="6" loc="(1391,630)" name="Text">
+      <a name="text" val="CAR LANES"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="5" loc="(240,910)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="6" loc="(378,1144)" name="Text">
+      <a name="text" val="5. Using Ctrl+K, simulate regular clock pulse to ensure vehicles dequeued at regular frequency"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp lib="5" loc="(1760,520)" name="LED">
+      <a name="color" val="#2ef03c"/>
+    </comp>
+    <comp lib="6" loc="(303,1069)" name="Text">
+      <a name="text" val="2. Input Vehicle's 16-bit Fastag ID and select Vehicle Type using button"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp loc="(170,740)" name="vehicle_priority">
+      <a name="label" val="Priority Check"/>
+    </comp>
+    <comp lib="6" loc="(1781,276)" name="Text">
+      <a name="text" val="Not enough balance"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="0" loc="(810,600)" name="Clock">
+      <a name="label" val="Dequeue Vehicle"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1540,510)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Queue Length"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp loc="(1400,1020)" name="payment_processor"/>
+    <comp lib="1" loc="(420,530)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="6" loc="(1790,720)" name="Text">
+      <a name="text" val="Payment Successful"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="0" loc="(820,560)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Ticket Price"/>
+      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
+    </comp>
+    <comp lib="6" loc="(1790,180)" name="Text">
+      <a name="text" val="Payment Successful"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(1465,765)" name="Text">
+      <a name="text" val="Lane4"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(459,68)" name="Text">
+      <a name="text" val="TOLL PLAZA MANAGEMENT AND PAYMENT GATEWAY SYSTEM"/>
+      <a name="font" val="Verdana bold 18"/>
+    </comp>
     <comp lib="0" loc="(110,520)" name="Pin">
       <a name="width" val="16"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp loc="(1450,1040)" name="ctr_3bit_updown"/>
+    <comp loc="(1450,860)" name="ctr_3bit_updown"/>
+    <comp lib="6" loc="(1781,456)" name="Text">
+      <a name="text" val="Not enough balance"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="5" loc="(70,740)" name="Button">
+      <a name="label" val="Priority Velhicle"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(130,1121)" name="Text">
+      <a name="text" val="4. Update Ticket Price"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp loc="(1400,130)" name="payment_processor"/>
+    <comp lib="6" loc="(1468,408)" name="Text">
+      <a name="text" val="Lane 2"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="5" loc="(1760,870)" name="LED">
+      <a name="color" val="#2ef03c"/>
+    </comp>
+    <comp lib="0" loc="(820,650)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="bit0" val="1"/>
+      <a name="bit1" val="0"/>
+    </comp>
+    <comp lib="5" loc="(1540,180)" name="LED">
+      <a name="color" val="#20f031"/>
+      <a name="label" val="New Vehicle"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
+    </comp>
+    <comp lib="0" loc="(1540,1040)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Queue Length"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="6" loc="(1467,936)" name="Text">
+      <a name="text" val="Lane5"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(1781,636)" name="Text">
+      <a name="text" val="Not enough balance"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(445,335)" name="Text">
+      <a name="text" val="Cash Payment"/>
+      <a name="font" val="Segoe UI Variable bold 14"/>
+    </comp>
+    <comp lib="2" loc="(1290,190)" name="Multiplexer">
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="5" loc="(1760,700)" name="LED">
+      <a name="color" val="#2ef03c"/>
+    </comp>
+    <comp lib="5" loc="(1760,160)" name="LED">
+      <a name="color" val="#2ef03c"/>
+    </comp>
+    <comp lib="2" loc="(1290,730)" name="Multiplexer">
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="6" loc="(116,134)" name="Text">
+      <a name="text" val="Team ID:"/>
+      <a name="font" val="Segoe UI Semilight bold 16"/>
+    </comp>
+    <comp lib="5" loc="(1540,360)" name="LED">
+      <a name="color" val="#20f031"/>
+      <a name="label" val="New Vehicle"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
+    </comp>
+    <comp lib="6" loc="(1781,96)" name="Text">
+      <a name="text" val="Not enough balance"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp loc="(1400,310)" name="payment_processor"/>
+    <comp lib="6" loc="(317,1048)" name="Text">
+      <a name="text" val="1. Using Priority Vehicle button, indicate whether vehicle is of priority or not"/>
+      <a name="font" val="Segoe UI plain 14"/>
+    </comp>
+    <comp loc="(1400,670)" name="payment_processor"/>
+    <comp lib="0" loc="(600,710)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="bike"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(1540,540)" name="LED">
+      <a name="color" val="#20f031"/>
+      <a name="label" val="New Vehicle"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
+    </comp>
+    <comp lib="2" loc="(1290,370)" name="Multiplexer">
+      <a name="disabled" val="0"/>
+    </comp>
+    <comp lib="5" loc="(1540,890)" name="LED">
+      <a name="color" val="#20f031"/>
+      <a name="label" val="New Vehicle"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
+    </comp>
+    <comp lib="5" loc="(1760,110)" name="LED">
+      <a name="color" val="#f02346"/>
+    </comp>
+    <comp lib="5" loc="(440,360)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#f00807"/>
+    </comp>
+    <comp lib="0" loc="(1540,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Balance"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
+    </comp>
+    <comp lib="6" loc="(1468,224)" name="Text">
+      <a name="text" val="Lane1"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="0" loc="(1540,690)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Queue Length"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="0" loc="(130,520)" name="Splitter">
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+    </comp>
+    <comp lib="5" loc="(1540,720)" name="LED">
+      <a name="color" val="#20f031"/>
+      <a name="label" val="New Vehicle"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semibold plain 13"/>
+    </comp>
+    <comp lib="6" loc="(484,624)" name="Text">
+      <a name="text" val="Non-Priority Vehicle"/>
+      <a name="font" val="Segoe UI Symbol bold 11"/>
+    </comp>
+    <comp lib="5" loc="(1760,820)" name="LED">
+      <a name="color" val="#f02346"/>
+    </comp>
+    <comp lib="6" loc="(1781,806)" name="Text">
+      <a name="text" val="Not enough balance"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp loc="(990,570)" name="lane_separation"/>
+    <comp lib="0" loc="(1540,810)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Balance"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
+    </comp>
+    <comp lib="6" loc="(1790,1070)" name="Text">
+      <a name="text" val="Payment Successful"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="2" loc="(1290,1080)" name="Multiplexer">
+      <a name="disabled" val="0"/>
+    </comp>
     <comp lib="6" loc="(1790,540)" name="Text">
       <a name="text" val="Payment Successful"/>
       <a name="font" val="Segoe UI Symbol bold 13"/>
+    </comp>
+    <comp lib="6" loc="(308,1094)" name="Text">
+      <a name="text" val="3. Enqueue Vehicle, it will be added to appropriate lane if Fastag verified"/>
+      <a name="font" val="Segoe UI plain 14"/>
     </comp>
   </circuit>
   <circuit name="luhn-gate">
@@ -980,26 +998,89 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(750,540)" to="(750,590)"/>
     <wire from="(720,310)" to="(730,310)"/>
     <wire from="(580,450)" to="(590,450)"/>
-    <comp loc="(1010,690)" name="8_bit_adder"/>
-    <comp loc="(670,390)" name="double_bcd"/>
-    <comp lib="0" loc="(580,370)" name="Pin">
+    <comp lib="6" loc="(540,546)" name="Text">
+      <a name="text" val="MSB"/>
+    </comp>
+    <comp loc="(760,230)" name="8_bit_adder"/>
+    <comp loc="(670,730)" name="double_bcd"/>
+    <comp lib="0" loc="(580,540)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(580,280)" name="Pin">
+    <comp lib="0" loc="(580,200)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,620)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp loc="(1010,690)" name="8_bit_adder"/>
+    <comp lib="0" loc="(580,710)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,410)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,750)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,660)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,790)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(541,323)" name="Text">
+      <a name="text" val="LSB"/>
+    </comp>
+    <comp lib="0" loc="(700,160)" name="Ground">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(580,450)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(1130,700)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="enable"/>
     </comp>
-    <comp lib="6" loc="(541,833)" name="Text">
+    <comp lib="0" loc="(580,830)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,320)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1220,720)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(540,716)" name="Text">
+      <a name="text" val="MSB"/>
+    </comp>
+    <comp lib="0" loc="(580,580)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,370)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(541,663)" name="Text">
       <a name="text" val="LSB"/>
+    </comp>
+    <comp lib="6" loc="(540,376)" name="Text">
+      <a name="text" val="MSB"/>
+    </comp>
+    <comp lib="6" loc="(757,111)" name="Text">
+      <a name="text" val="Verification of account number using Luhn's algorithm"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
     <comp lib="0" loc="(580,490)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp loc="(870,530)" name="8_bit_adder"/>
+    <comp lib="6" loc="(541,833)" name="Text">
+      <a name="text" val="LSB"/>
+    </comp>
     <comp lib="6" loc="(540,206)" name="Text">
       <a name="text" val="MSB"/>
+    </comp>
+    <comp lib="0" loc="(580,280)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(1290,720)" name="Pin">
       <a name="facing" val="west"/>
@@ -1007,77 +1088,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="valid"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(670,730)" name="double_bcd"/>
+    <comp loc="(670,390)" name="double_bcd"/>
     <comp lib="1" loc="(1140,740)" name="NOR Gate">
       <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(580,200)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(700,160)" name="Ground">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(580,540)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(541,663)" name="Text">
-      <a name="text" val="LSB"/>
-    </comp>
-    <comp lib="0" loc="(580,750)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(540,716)" name="Text">
-      <a name="text" val="MSB"/>
-    </comp>
-    <comp lib="0" loc="(580,710)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,660)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(757,111)" name="Text">
-      <a name="text" val="Verification of account number using Luhn's algorithm"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="6" loc="(540,376)" name="Text">
-      <a name="text" val="MSB"/>
-    </comp>
-    <comp lib="0" loc="(580,580)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,450)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp loc="(870,530)" name="8_bit_adder"/>
-    <comp lib="0" loc="(580,790)" name="Pin">
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="6" loc="(541,493)" name="Text">
       <a name="text" val="LSB"/>
     </comp>
     <comp lib="0" loc="(580,240)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp loc="(760,230)" name="8_bit_adder"/>
-    <comp lib="6" loc="(540,546)" name="Text">
-      <a name="text" val="MSB"/>
-    </comp>
-    <comp lib="1" loc="(1220,720)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(580,830)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,410)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,320)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(541,323)" name="Text">
-      <a name="text" val="LSB"/>
-    </comp>
-    <comp lib="0" loc="(580,620)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
   </circuit>
@@ -1161,12 +1179,70 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(590,540)" to="(590,590)"/>
     <wire from="(800,350)" to="(880,350)"/>
     <wire from="(560,350)" to="(570,350)"/>
+    <comp lib="0" loc="(560,350)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(970,570)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="LSB"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(560,470)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(514,473)" name="Text">
+      <a name="text" val="LSB"/>
+    </comp>
+    <comp lib="1" loc="(930,570)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(800,500)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(560,290)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(850,580)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(860,400)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(520,296)" name="Text">
+      <a name="text" val="MSB"/>
+    </comp>
+    <comp lib="1" loc="(810,270)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(800,390)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(920,360)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(736,174)" name="Text">
+      <a name="text" val="Circuit Used to Double BCD numbers and add sum of digits if double digit double"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
     <comp lib="1" loc="(800,350)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+    <comp lib="1" loc="(800,540)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(630,470)" name="NOT Gate"/>
     <comp lib="1" loc="(630,410)" name="NOT Gate"/>
-    <comp lib="1" loc="(850,580)" name="AND Gate">
+    <comp lib="1" loc="(710,260)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
@@ -1175,48 +1251,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(520,296)" name="Text">
-      <a name="text" val="MSB"/>
-    </comp>
-    <comp lib="1" loc="(860,400)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(810,270)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(930,570)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(800,390)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(800,600)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
     <comp lib="0" loc="(560,410)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="1" loc="(710,330)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(630,290)" name="NOT Gate"/>
+    <comp lib="1" loc="(630,350)" name="NOT Gate"/>
     <comp lib="0" loc="(970,520)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(970,570)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="LSB"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(514,473)" name="Text">
-      <a name="text" val="LSB"/>
-    </comp>
-    <comp lib="0" loc="(560,470)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="1" loc="(930,520)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(970,270)" name="Pin">
       <a name="facing" val="west"/>
@@ -1224,40 +1275,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="MSB"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(800,500)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(630,350)" name="NOT Gate"/>
-    <comp lib="0" loc="(560,350)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(930,520)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(560,290)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(710,330)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(800,540)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(920,360)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(630,290)" name="NOT Gate"/>
-    <comp lib="6" loc="(736,174)" name="Text">
-      <a name="text" val="Circuit Used to Double BCD numbers and add sum of digits if double digit double"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="1" loc="(630,470)" name="NOT Gate"/>
-    <comp lib="1" loc="(710,260)" name="AND Gate">
+    <comp lib="1" loc="(800,600)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
@@ -1303,6 +1321,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(620,380)" to="(620,430)"/>
     <wire from="(580,390)" to="(720,390)"/>
     <wire from="(540,380)" to="(550,380)"/>
+    <comp lib="6" loc="(649,257)" name="Text">
+      <a name="text" val="Full Adder"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
+    <comp lib="1" loc="(710,330)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="0" loc="(790,390)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1310,25 +1336,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(490,370)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="1" loc="(710,330)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(690,370)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(580,390)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(610,330)" name="XOR Gate">
+    <comp lib="1" loc="(750,390)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
@@ -1338,24 +1346,34 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(490,310)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="6" loc="(649,257)" name="Text">
-      <a name="text" val="Full Adder"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="1" loc="(750,390)" name="OR Gate">
+    <comp lib="1" loc="(580,390)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(610,330)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(690,370)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(490,370)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
     <comp lib="0" loc="(790,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="S"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(490,310)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
@@ -1415,25 +1433,28 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(660,290)" to="(660,340)"/>
     <wire from="(750,300)" to="(750,350)"/>
     <wire from="(670,300)" to="(750,300)"/>
-    <comp lib="0" loc="(780,290)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="S4"/>
+    <comp lib="6" loc="(684,164)" name="Text">
+      <a name="text" val="4-Bit Adder"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
+    <comp lib="0" loc="(590,470)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B3"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(780,420)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="S2"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp loc="(720,420)" name="full_adder"/>
     <comp lib="0" loc="(780,340)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="S3"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp loc="(720,340)" name="full_adder"/>
+    <comp loc="(720,260)" name="full_adder"/>
+    <comp lib="0" loc="(590,520)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B2"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
@@ -1443,34 +1464,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(780,240)" name="Pin">
+    <comp loc="(720,420)" name="full_adder"/>
+    <comp lib="0" loc="(780,290)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="C"/>
+      <a name="label" val="S4"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(590,430)" name="Pin">
+    <comp lib="0" loc="(590,240)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="B4"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(590,390)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A1"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(590,470)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B3"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(590,520)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B2"/>
+      <a name="label" val="A4"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
@@ -1481,20 +1485,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp loc="(720,340)" name="full_adder"/>
-    <comp lib="0" loc="(590,290)" name="Pin">
+    <comp lib="0" loc="(590,390)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="A3"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="6" loc="(684,164)" name="Text">
-      <a name="text" val="4-Bit Adder"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="0" loc="(590,240)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A4"/>
+      <a name="label" val="A1"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
@@ -1504,14 +1497,39 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
+    <comp lib="0" loc="(590,290)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A3"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(780,420)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S2"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(780,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
     <comp lib="0" loc="(590,570)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B1"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
+    <comp lib="0" loc="(590,430)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B4"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
     <comp loc="(720,530)" name="full_adder"/>
-    <comp loc="(720,260)" name="full_adder"/>
   </circuit>
   <circuit name="8_bit_adder">
     <a name="circuit" val="8_bit_adder"/>
@@ -1643,29 +1661,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(970,360)" to="(970,410)"/>
     <wire from="(1010,240)" to="(1010,290)"/>
     <wire from="(770,530)" to="(910,530)"/>
-    <comp lib="6" loc="(767,180)" name="Text">
-      <a name="text" val="Circuit to add an 8-bit BCD number to 4-bit BCD number"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
+    <comp lib="1" loc="(740,590)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(490,780)" name="Ground"/>
-    <comp lib="0" loc="(600,350)" name="Ground"/>
-    <comp lib="0" loc="(500,730)" name="Pin">
+    <comp lib="0" loc="(500,650)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="B1"/>
+      <a name="label" val="B3"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(500,690)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B2"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
     <comp lib="1" loc="(820,480)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(970,410)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1050,560)" name="Pin">
+    <comp lib="0" loc="(1050,600)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="S2"/>
+      <a name="label" val="S1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(740,540)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp loc="(730,280)" name="4_bit_adder"/>
+    <comp lib="0" loc="(870,590)" name="Ground"/>
+    <comp lib="0" loc="(1050,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S1"/>
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
@@ -1674,62 +1703,36 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="A3"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(1050,520)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="S3"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(1050,320)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="S2"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(500,260)" name="Pin">
+    <comp lib="0" loc="(500,430)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A4"/>
-    </comp>
-    <comp loc="(730,280)" name="4_bit_adder"/>
-    <comp lib="0" loc="(500,610)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B4"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp loc="(940,500)" name="4_bit_adder"/>
-    <comp lib="0" loc="(500,380)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A1"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(500,510)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A2"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(500,340)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A2"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(1050,600)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="S1"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1050,240)" name="Pin">
+    <comp lib="0" loc="(1050,480)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="S4"/>
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(500,430)" name="Pin">
+    <comp lib="0" loc="(1050,560)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S2"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(600,350)" name="Ground"/>
+    <comp lib="0" loc="(490,780)" name="Ground"/>
+    <comp lib="0" loc="(500,340)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="A4"/>
+      <a name="label" val="A2"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp loc="(620,510)" name="4_bit_adder"/>
+    <comp lib="0" loc="(500,730)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B1"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
     <comp lib="0" loc="(1050,280)" name="Pin">
@@ -1739,49 +1742,64 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(500,550)" name="Pin">
+    <comp lib="0" loc="(500,610)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B4"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(500,380)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A1"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(870,590)" name="Ground"/>
-    <comp lib="1" loc="(740,540)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1050,480)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="S4"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
-    </comp>
-    <comp lib="0" loc="(500,650)" name="Pin">
+    <comp lib="0" loc="(860,450)" name="Ground"/>
+    <comp lib="0" loc="(500,260)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="B3"/>
-      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+      <a name="label" val="A4"/>
+    </comp>
+    <comp lib="6" loc="(767,180)" name="Text">
+      <a name="text" val="Circuit to add an 8-bit BCD number to 4-bit BCD number"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
+    <comp lib="1" loc="(970,410)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(500,300)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A3"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="0" loc="(1050,360)" name="Pin">
+    <comp lib="0" loc="(1050,320)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="S1"/>
+      <a name="label" val="S2"/>
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="1" loc="(740,590)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(860,450)" name="Ground"/>
-    <comp loc="(620,510)" name="4_bit_adder"/>
-    <comp lib="0" loc="(500,690)" name="Pin">
+    <comp loc="(940,500)" name="4_bit_adder"/>
+    <comp lib="0" loc="(500,550)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="B2"/>
+      <a name="label" val="A1"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(1050,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S4"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(500,510)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A2"/>
+      <a name="labelfont" val="Segoe UI Symbol plain 14"/>
+    </comp>
+    <comp lib="0" loc="(1050,520)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S3"/>
+      <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
   </circuit>
@@ -1925,58 +1943,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(680,690)" to="(760,690)"/>
     <wire from="(650,680)" to="(660,680)"/>
     <wire from="(430,650)" to="(500,650)"/>
-    <comp lib="0" loc="(400,720)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="6" loc="(369,374)" name="Text">
+      <a name="text" val="A2"/>
+      <a name="font" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="1" loc="(470,500)" name="NOT Gate"/>
+    <comp lib="6" loc="(1102,757)" name="Text">
+      <a name="text" val="A=B"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
     <comp lib="6" loc="(368,465)" name="Text">
       <a name="text" val="B2"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="1" loc="(810,630)" name="AND Gate"/>
-    <comp lib="0" loc="(400,330)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(550,580)" name="AND Gate"/>
-    <comp lib="1" loc="(470,590)" name="NOT Gate"/>
-    <comp lib="1" loc="(650,680)" name="NOR Gate"/>
-    <comp lib="0" loc="(400,460)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(369,506)" name="Text">
-      <a name="text" val="A1"/>
-      <a name="font" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="1" loc="(650,550)" name="NOR Gate"/>
-    <comp lib="6" loc="(1100,607)" name="Text">
-      <a name="text" val="A&gt;B"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="1" loc="(550,640)" name="AND Gate"/>
-    <comp lib="0" loc="(400,590)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(810,690)" name="AND Gate"/>
-    <comp lib="6" loc="(368,242)" name="Text">
-      <a name="text" val="A3"/>
-      <a name="font" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="1" loc="(470,500)" name="NOT Gate"/>
-    <comp lib="1" loc="(760,750)" name="AND Gate"/>
-    <comp lib="1" loc="(470,720)" name="NOT Gate"/>
-    <comp lib="1" loc="(810,450)" name="AND Gate"/>
-    <comp lib="1" loc="(470,370)" name="NOT Gate"/>
-    <comp lib="1" loc="(550,380)" name="AND Gate"/>
-    <comp lib="6" loc="(370,597)" name="Text">
-      <a name="text" val="B1"/>
-      <a name="font" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="0" loc="(1060,470)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
+    <comp lib="1" loc="(470,330)" name="NOT Gate"/>
     <comp lib="6" loc="(370,638)" name="Text">
       <a name="text" val="A0"/>
+      <a name="font" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="1" loc="(550,580)" name="AND Gate"/>
+    <comp lib="1" loc="(470,240)" name="NOT Gate"/>
+    <comp lib="1" loc="(550,250)" name="AND Gate"/>
+    <comp lib="0" loc="(400,370)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(368,242)" name="Text">
+      <a name="text" val="A3"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
     <comp lib="0" loc="(1060,750)" name="Pin">
@@ -1984,63 +1976,89 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(470,240)" name="NOT Gate"/>
-    <comp lib="1" loc="(810,510)" name="AND Gate"/>
-    <comp lib="1" loc="(550,450)" name="AND Gate"/>
-    <comp lib="1" loc="(470,330)" name="NOT Gate"/>
+    <comp lib="1" loc="(810,390)" name="AND Gate"/>
+    <comp lib="1" loc="(650,290)" name="NOR Gate"/>
+    <comp lib="1" loc="(550,640)" name="AND Gate"/>
     <comp lib="6" loc="(369,725)" name="Text">
       <a name="text" val="B0"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="1" loc="(550,510)" name="AND Gate"/>
-    <comp lib="1" loc="(550,710)" name="AND Gate"/>
+    <comp lib="0" loc="(400,460)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(650,680)" name="NOR Gate"/>
+    <comp lib="6" loc="(1100,607)" name="Text">
+      <a name="text" val="A&gt;B"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
     <comp lib="1" loc="(650,420)" name="NOR Gate"/>
+    <comp lib="1" loc="(550,510)" name="AND Gate"/>
+    <comp lib="1" loc="(1010,470)" name="OR Gate"/>
+    <comp lib="0" loc="(1060,470)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(400,630)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1010,600)" name="OR Gate"/>
+    <comp lib="0" loc="(400,500)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(470,460)" name="NOT Gate"/>
+    <comp lib="6" loc="(1102,476)" name="Text">
+      <a name="text" val="A&lt;B"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
+    <comp lib="0" loc="(400,590)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(550,450)" name="AND Gate"/>
+    <comp lib="0" loc="(400,240)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(550,710)" name="AND Gate"/>
+    <comp lib="1" loc="(810,510)" name="AND Gate"/>
+    <comp lib="1" loc="(470,630)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,720)" name="NOT Gate"/>
     <comp lib="0" loc="(1060,600)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(1010,600)" name="OR Gate"/>
     <comp lib="1" loc="(550,320)" name="AND Gate"/>
+    <comp lib="0" loc="(400,720)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(810,570)" name="AND Gate"/>
     <comp lib="6" loc="(370,335)" name="Text">
       <a name="text" val="B3"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="1" loc="(810,570)" name="AND Gate"/>
-    <comp lib="0" loc="(400,240)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(400,500)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(369,374)" name="Text">
-      <a name="text" val="A2"/>
-      <a name="font" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="6" loc="(1102,757)" name="Text">
-      <a name="text" val="A=B"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="1" loc="(550,250)" name="AND Gate"/>
-    <comp lib="0" loc="(400,370)" name="Pin">
+    <comp lib="1" loc="(810,690)" name="AND Gate"/>
+    <comp lib="1" loc="(550,380)" name="AND Gate"/>
+    <comp lib="1" loc="(470,590)" name="NOT Gate"/>
+    <comp lib="0" loc="(400,330)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="6" loc="(643,186)" name="Text">
       <a name="text" val="4-Bit Comparator"/>
       <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
-    <comp lib="6" loc="(1102,476)" name="Text">
-      <a name="text" val="A&lt;B"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
+    <comp lib="6" loc="(370,597)" name="Text">
+      <a name="text" val="B1"/>
+      <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="0" loc="(400,630)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="1" loc="(470,370)" name="NOT Gate"/>
+    <comp lib="1" loc="(810,450)" name="AND Gate"/>
+    <comp lib="6" loc="(369,506)" name="Text">
+      <a name="text" val="A1"/>
+      <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="1" loc="(470,630)" name="NOT Gate"/>
-    <comp lib="1" loc="(470,460)" name="NOT Gate"/>
-    <comp lib="1" loc="(1010,470)" name="OR Gate"/>
-    <comp lib="1" loc="(810,390)" name="AND Gate"/>
-    <comp lib="1" loc="(650,290)" name="NOR Gate"/>
+    <comp lib="1" loc="(810,630)" name="AND Gate"/>
+    <comp lib="1" loc="(760,750)" name="AND Gate"/>
+    <comp lib="1" loc="(650,550)" name="NOR Gate"/>
   </circuit>
   <circuit name="balance_checker">
     <a name="circuit" val="balance_checker"/>
@@ -2101,25 +2119,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(600,270)" to="(610,270)"/>
     <wire from="(870,300)" to="(870,350)"/>
     <wire from="(870,220)" to="(870,270)"/>
+    <comp lib="0" loc="(640,310)" name="Tunnel">
+      <a name="label" val="b2"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
     <comp lib="0" loc="(580,310)" name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(470,420)" name="Tunnel">
+    <comp lib="1" loc="(840,550)" name="OR Gate"/>
+    <comp lib="6" loc="(728,148)" name="Text">
+      <a name="text" val="Checking Available Balance"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
+    <comp lib="0" loc="(470,580)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="b3"/>
+      <a name="label" val="b1"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="6" loc="(957,554)" name="Text">
-      <a name="text" val="Payment Succesful"/>
+    <comp lib="6" loc="(956,504)" name="Text">
+      <a name="text" val="Balance Insufficient"/>
       <a name="font" val="Segoe UI Semibold plain 14"/>
     </comp>
-    <comp lib="0" loc="(900,310)" name="Tunnel">
-      <a name="label" val="t2"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="0" loc="(900,350)" name="Tunnel">
-      <a name="label" val="t3"/>
+    <comp lib="0" loc="(900,220)" name="Tunnel">
+      <a name="label" val="t0"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
     <comp lib="0" loc="(560,310)" name="Pin">
@@ -2128,24 +2151,48 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Balance"/>
       <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
+    <comp lib="0" loc="(900,260)" name="Tunnel">
+      <a name="label" val="t1"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="0" loc="(640,350)" name="Tunnel">
+      <a name="label" val="b3"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="0" loc="(640,220)" name="Tunnel">
+      <a name="label" val="b0"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="0" loc="(850,310)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(470,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="t2"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="0" loc="(470,700)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="t0"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
+    <comp lib="0" loc="(640,260)" name="Tunnel">
+      <a name="label" val="b1"/>
+      <a name="labelfont" val="SansSerif plain 14"/>
+    </comp>
     <comp lib="0" loc="(470,500)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="b2"/>
       <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp loc="(610,530)" name="compartor_4_bit"/>
-    <comp lib="0" loc="(870,500)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(470,660)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="b0"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="6" loc="(956,504)" name="Text">
-      <a name="text" val="Balance Insufficient"/>
+    <comp lib="6" loc="(957,554)" name="Text">
+      <a name="text" val="Payment Succesful"/>
       <a name="font" val="Segoe UI Semibold plain 14"/>
     </comp>
     <comp lib="0" loc="(830,310)" name="Pin">
@@ -2154,30 +2201,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Ticket"/>
       <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
-    <comp lib="0" loc="(850,310)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="0" loc="(470,700)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="t0"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="6" loc="(728,148)" name="Text">
-      <a name="text" val="Checking Available Balance"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="0" loc="(470,460)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(900,350)" name="Tunnel">
       <a name="label" val="t3"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="0" loc="(900,220)" name="Tunnel">
-      <a name="label" val="t0"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="0" loc="(640,310)" name="Tunnel">
-      <a name="label" val="b2"/>
+    <comp lib="0" loc="(900,310)" name="Tunnel">
+      <a name="label" val="t2"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
     <comp lib="0" loc="(470,620)" name="Tunnel">
@@ -2185,37 +2214,26 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="t1"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="0" loc="(470,580)" name="Tunnel">
+    <comp lib="0" loc="(870,500)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(610,530)" name="compartor_4_bit"/>
+    <comp lib="0" loc="(470,420)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="b1"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="0" loc="(640,220)" name="Tunnel">
-      <a name="label" val="b0"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="0" loc="(640,350)" name="Tunnel">
       <a name="label" val="b3"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="0" loc="(900,260)" name="Tunnel">
-      <a name="label" val="t1"/>
+    <comp lib="0" loc="(470,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="t3"/>
       <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
     <comp lib="0" loc="(870,550)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(840,550)" name="OR Gate"/>
-    <comp lib="0" loc="(640,260)" name="Tunnel">
-      <a name="label" val="b1"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
-    </comp>
-    <comp lib="0" loc="(470,540)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="t2"/>
-      <a name="labelfont" val="SansSerif plain 14"/>
     </comp>
   </circuit>
   <circuit name="segregate">
@@ -2255,31 +2273,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(770,340)" to="(780,340)"/>
     <wire from="(640,460)" to="(650,460)"/>
     <wire from="(640,480)" to="(650,480)"/>
-    <comp lib="1" loc="(830,450)" name="AND Gate"/>
     <comp lib="1" loc="(830,390)" name="AND Gate"/>
-    <comp lib="4" loc="(640,460)" name="D Flip-Flop"/>
     <comp lib="6" loc="(736,259)" name="Text">
       <a name="text" val="Segregate Vehicles"/>
       <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
+    <comp lib="4" loc="(640,460)" name="D Flip-Flop"/>
     <comp lib="0" loc="(850,450)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="bikes"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(710,380)" name="NOT Gate"/>
-    <comp lib="1" loc="(830,330)" name="AND Gate"/>
-    <comp lib="0" loc="(540,460)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(770,340)" name="NOT Gate"/>
     <comp lib="0" loc="(850,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="trucks"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="1" loc="(830,330)" name="AND Gate"/>
+    <comp lib="0" loc="(540,460)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(710,380)" name="NOT Gate"/>
+    <comp lib="1" loc="(770,340)" name="NOT Gate"/>
     <comp lib="0" loc="(850,390)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2287,6 +2304,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="4" loc="(720,460)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(830,450)" name="AND Gate"/>
   </circuit>
   <circuit name="vehicle_priority">
     <a name="circuit" val="vehicle_priority"/>
@@ -2321,13 +2339,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(770,340)" to="(780,340)"/>
     <wire from="(640,480)" to="(650,480)"/>
     <wire from="(640,460)" to="(650,460)"/>
+    <comp lib="6" loc="(736,259)" name="Text">
+      <a name="text" val="Circuit to check if vehicle is a priority vehicle"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
     <comp lib="1" loc="(710,380)" name="NOT Gate"/>
-    <comp lib="1" loc="(830,390)" name="AND Gate"/>
     <comp lib="4" loc="(720,460)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(770,340)" name="NOT Gate"/>
     <comp lib="0" loc="(540,460)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="4" loc="(640,460)" name="D Flip-Flop"/>
     <comp lib="0" loc="(850,390)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2335,6 +2356,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
+    <comp lib="4" loc="(640,460)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(830,330)" name="AND Gate"/>
     <comp lib="0" loc="(850,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2342,12 +2365,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol plain 14"/>
     </comp>
-    <comp lib="1" loc="(830,330)" name="AND Gate"/>
-    <comp lib="6" loc="(736,259)" name="Text">
-      <a name="text" val="Circuit to check if vehicle is a priority vehicle"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="1" loc="(770,340)" name="NOT Gate"/>
+    <comp lib="1" loc="(830,390)" name="AND Gate"/>
   </circuit>
   <circuit name="compartor_3_bit">
     <a name="circuit" val="compartor_3_bit"/>
@@ -2476,7 +2494,27 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(700,170)" to="(710,170)"/>
     <wire from="(590,580)" to="(600,580)"/>
     <wire from="(370,550)" to="(440,550)"/>
-    <comp lib="1" loc="(840,590)" name="OR Gate"/>
+    <comp lib="1" loc="(490,610)" name="AND Gate"/>
+    <comp lib="0" loc="(660,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B2"/>
+    </comp>
+    <comp lib="0" loc="(340,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B2"/>
+    </comp>
+    <comp lib="1" loc="(710,600)" name="AND Gate"/>
+    <comp lib="0" loc="(920,130)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Output"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="0" loc="(920,130)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
     <comp lib="0" loc="(700,180)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="B1"/>
@@ -2485,131 +2523,111 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="east"/>
       <a name="label" val="B0"/>
     </comp>
-    <comp lib="0" loc="(900,180)" name="Ground"/>
-    <comp lib="1" loc="(710,420)" name="AND Gate"/>
-    <comp lib="0" loc="(980,500)" name="Tunnel">
-      <a name="label" val="A &lt; B"/>
-    </comp>
-    <comp lib="1" loc="(940,610)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(440,140)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Lane 1"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="1" loc="(840,500)" name="OR Gate"/>
-    <comp lib="1" loc="(590,450)" name="NOR Gate"/>
-    <comp lib="1" loc="(410,490)" name="NOT Gate"/>
-    <comp lib="1" loc="(410,400)" name="NOT Gate"/>
-    <comp lib="0" loc="(920,130)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-    </comp>
-    <comp lib="1" loc="(710,600)" name="AND Gate"/>
-    <comp lib="0" loc="(690,130)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Lane 2"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="0" loc="(1010,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="A &lt; B"/>
+    <comp lib="0" loc="(340,530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="A0"/>
     </comp>
     <comp lib="0" loc="(420,180)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="A2"/>
     </comp>
     <comp lib="1" loc="(410,270)" name="NOT Gate"/>
+    <comp lib="1" loc="(410,620)" name="NOT Gate"/>
     <comp lib="0" loc="(740,180)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="B0"/>
     </comp>
-    <comp lib="0" loc="(660,180)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="B2"/>
-    </comp>
-    <comp lib="1" loc="(410,620)" name="NOT Gate"/>
-    <comp lib="0" loc="(690,130)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-    </comp>
-    <comp lib="1" loc="(710,660)" name="AND Gate"/>
-    <comp lib="0" loc="(340,270)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="A2"/>
-    </comp>
-    <comp lib="0" loc="(980,610)" name="Tunnel">
-      <a name="label" val="A &gt;= B"/>
-    </comp>
-    <comp lib="1" loc="(490,410)" name="AND Gate"/>
-    <comp lib="1" loc="(490,540)" name="AND Gate"/>
-    <comp lib="0" loc="(950,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="A &gt;= B"/>
-    </comp>
-    <comp lib="1" loc="(490,350)" name="AND Gate"/>
-    <comp lib="1" loc="(410,360)" name="NOT Gate"/>
-    <comp lib="1" loc="(590,320)" name="NOR Gate"/>
     <comp lib="0" loc="(500,180)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="A0"/>
-    </comp>
-    <comp lib="0" loc="(340,490)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="B1"/>
-    </comp>
-    <comp lib="1" loc="(410,530)" name="NOT Gate"/>
-    <comp lib="0" loc="(340,400)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="A1"/>
-    </comp>
-    <comp lib="1" loc="(590,580)" name="NOR Gate"/>
-    <comp lib="0" loc="(920,130)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Output"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
     <comp lib="6" loc="(758,98)" name="Text">
       <a name="text" val="3 bit Comparator"/>
       <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
-    <comp lib="1" loc="(490,280)" name="AND Gate"/>
-    <comp lib="0" loc="(340,530)" name="Tunnel">
+    <comp lib="0" loc="(340,270)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="A0"/>
+      <a name="label" val="A2"/>
     </comp>
+    <comp lib="1" loc="(490,480)" name="AND Gate"/>
+    <comp lib="1" loc="(840,590)" name="OR Gate"/>
+    <comp lib="0" loc="(980,500)" name="Tunnel">
+      <a name="label" val="A &lt; B"/>
+    </comp>
+    <comp lib="1" loc="(410,400)" name="NOT Gate"/>
+    <comp lib="0" loc="(1010,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="A &lt; B"/>
+    </comp>
+    <comp lib="1" loc="(490,540)" name="AND Gate"/>
+    <comp lib="1" loc="(590,580)" name="NOR Gate"/>
+    <comp lib="0" loc="(900,180)" name="Ground"/>
     <comp lib="1" loc="(710,480)" name="AND Gate"/>
-    <comp lib="1" loc="(710,540)" name="AND Gate"/>
-    <comp lib="0" loc="(340,360)" name="Tunnel">
+    <comp lib="0" loc="(340,400)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="B2"/>
+      <a name="label" val="A1"/>
     </comp>
+    <comp lib="1" loc="(490,280)" name="AND Gate"/>
+    <comp lib="0" loc="(980,610)" name="Tunnel">
+      <a name="label" val="A &gt;= B"/>
+    </comp>
+    <comp lib="1" loc="(410,490)" name="NOT Gate"/>
+    <comp lib="1" loc="(490,350)" name="AND Gate"/>
+    <comp lib="1" loc="(940,610)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(490,410)" name="AND Gate"/>
+    <comp lib="0" loc="(340,490)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="1" loc="(710,420)" name="AND Gate"/>
+    <comp lib="1" loc="(710,540)" name="AND Gate"/>
     <comp lib="0" loc="(440,140)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
     </comp>
-    <comp lib="1" loc="(490,480)" name="AND Gate"/>
     <comp lib="0" loc="(460,180)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="A1"/>
     </comp>
-    <comp lib="1" loc="(490,610)" name="AND Gate"/>
+    <comp lib="0" loc="(690,130)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="1" loc="(410,530)" name="NOT Gate"/>
+    <comp lib="1" loc="(590,450)" name="NOR Gate"/>
+    <comp lib="0" loc="(440,140)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Lane 1"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="0" loc="(950,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="A &gt;= B"/>
+    </comp>
+    <comp lib="0" loc="(690,130)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Lane 2"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="1" loc="(710,660)" name="AND Gate"/>
+    <comp lib="1" loc="(410,360)" name="NOT Gate"/>
+    <comp lib="1" loc="(590,320)" name="NOR Gate"/>
+    <comp lib="1" loc="(840,500)" name="OR Gate"/>
   </circuit>
   <circuit name="ctr_3bit_updown">
     <a name="circuit" val="ctr_3bit_updown"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
+    <a name="clabel" val="counter"/>
+    <a name="clabelup" val="west"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
-      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
+      <path d="M61,46 Q65,56 69,46" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="55" stroke="#000000" stroke-width="2" width="30" x="50" y="45"/>
       <circ-port height="10" pin="680,160" width="10" x="75" y="55"/>
       <circ-port height="8" pin="400,300" width="8" x="46" y="56"/>
       <circ-port height="8" pin="400,450" width="8" x="46" y="66"/>
@@ -2671,84 +2689,84 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(400,300)" to="(470,300)"/>
     <wire from="(670,330)" to="(810,330)"/>
     <wire from="(530,380)" to="(540,380)"/>
-    <comp lib="4" loc="(790,360)" name="T Flip-Flop"/>
+    <comp lib="1" loc="(710,380)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(650,360)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(699,114)" name="Text">
-      <a name="text" val="3 bit up-down counter used to maintain queue length"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
+    <comp lib="1" loc="(850,400)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(520,330)" name="NOT Gate"/>
+    <comp lib="1" loc="(850,350)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="0" loc="(1000,480)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="B2"/>
-    </comp>
-    <comp lib="0" loc="(400,450)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Clock"/>
-    </comp>
-    <comp lib="0" loc="(540,480)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="B0"/>
-    </comp>
-    <comp lib="0" loc="(680,160)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="Output"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="1" loc="(910,380)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(710,380)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(660,200)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="B2"/>
     </comp>
-    <comp lib="1" loc="(850,400)" name="AND Gate">
+    <comp lib="0" loc="(810,480)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="0" loc="(470,420)" name="Power">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(600,390)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(910,380)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(700,200)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B1"/>
     </comp>
     <comp lib="0" loc="(680,160)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
     </comp>
-    <comp lib="1" loc="(850,350)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(699,114)" name="Text">
+      <a name="text" val="3 bit up-down counter used to maintain queue length"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
+    </comp>
+    <comp lib="4" loc="(990,360)" name="T Flip-Flop"/>
+    <comp lib="0" loc="(740,200)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B0"/>
+    </comp>
+    <comp lib="4" loc="(790,360)" name="T Flip-Flop"/>
+    <comp lib="0" loc="(680,160)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Output"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
     <comp lib="0" loc="(400,300)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="M"/>
     </comp>
-    <comp lib="0" loc="(470,420)" name="Power">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="4" loc="(990,360)" name="T Flip-Flop"/>
-    <comp lib="1" loc="(600,390)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="4" loc="(520,380)" name="T Flip-Flop"/>
-    <comp lib="0" loc="(700,200)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="B1"/>
-    </comp>
-    <comp lib="0" loc="(810,480)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="B1"/>
-    </comp>
-    <comp lib="0" loc="(740,200)" name="Tunnel">
+    <comp lib="0" loc="(540,480)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="B0"/>
     </comp>
+    <comp lib="0" loc="(400,450)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Clock"/>
+    </comp>
+    <comp lib="1" loc="(520,330)" name="NOT Gate"/>
   </circuit>
   <circuit name="payment_processor">
     <a name="circuit" val="payment_processor"/>
@@ -2868,133 +2886,65 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(650,600)" to="(650,650)"/>
     <wire from="(640,270)" to="(640,320)"/>
     <wire from="(1100,400)" to="(1120,400)"/>
-    <comp lib="1" loc="(700,650)" name="NOT Gate"/>
-    <comp lib="0" loc="(490,780)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="increment"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="0" loc="(220,410)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="B1"/>
-    </comp>
-    <comp lib="6" loc="(631,205)" name="Text">
-      <a name="text" val="Module updates input going into up/down counter based on existing conditions"/>
+    <comp lib="6" loc="(605,179)" name="Text">
+      <a name="text" val="Payment Processor"/>
       <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
-    <comp lib="1" loc="(660,350)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1120,610)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Clock"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(490,270)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="decrement"/>
       <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
-    <comp lib="0" loc="(860,650)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="3"/>
-      <a name="value" val="0x7"/>
-    </comp>
-    <comp lib="1" loc="(750,630)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1120,450)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(270,410)" name="Tunnel">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(590,370)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="label" val="B0"/>
     </comp>
+    <comp lib="1" loc="(820,550)" name="NOT Gate"/>
     <comp lib="0" loc="(780,440)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="Ticket Price"/>
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="Segoe UI Semilight bold 14"/>
     </comp>
-    <comp lib="0" loc="(1120,400)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="1" loc="(750,630)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1040,540)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(170,410)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="B2"/>
     </comp>
-    <comp lib="0" loc="(850,680)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="B2"/>
+    <comp lib="1" loc="(660,350)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(800,760)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(590,330)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="B2"/>
-    </comp>
-    <comp lib="1" loc="(820,550)" name="NOT Gate"/>
-    <comp lib="4" loc="(800,580)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(850,700)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(220,410)" name="Tunnel">
+      <a name="facing" val="north"/>
       <a name="label" val="B1"/>
+    </comp>
+    <comp loc="(930,420)" name="balance_checker">
+      <a name="label" val="Balance Checker"/>
+    </comp>
+    <comp lib="0" loc="(1120,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(760,330)" name="Random">
+      <a name="width" val="4"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="6" loc="(1141,386)" name="Text">
       <a name="text" val="Not enough balance"/>
       <a name="font" val="Segoe UI Symbol bold 13"/>
     </comp>
-    <comp lib="6" loc="(605,179)" name="Text">
-      <a name="text" val="Payment Processor"/>
+    <comp lib="6" loc="(631,205)" name="Text">
+      <a name="text" val="Module updates input going into up/down counter based on existing conditions"/>
       <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="1" loc="(1040,750)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="2" loc="(890,770)" name="Multiplexer"/>
-    <comp lib="0" loc="(870,660)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-    </comp>
-    <comp lib="0" loc="(780,380)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Balance"/>
-      <a name="labelloc" val="south"/>
-      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
-    </comp>
-    <comp lib="0" loc="(190,370)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="label" val="Queue Length"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="1" loc="(970,660)" name="NOT Gate"/>
-    <comp lib="6" loc="(1150,470)" name="Text">
-      <a name="text" val="Payment Successful"/>
-      <a name="font" val="Segoe UI Symbol bold 13"/>
-    </comp>
-    <comp loc="(930,420)" name="balance_checker">
-      <a name="label" val="Balance Checker"/>
-    </comp>
-    <comp lib="0" loc="(590,350)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="B1"/>
-    </comp>
-    <comp lib="1" loc="(1100,740)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(920,660)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="6"/>
-    </comp>
-    <comp lib="1" loc="(1040,540)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(850,720)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -3005,9 +2955,82 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
     </comp>
-    <comp lib="4" loc="(760,330)" name="Random">
+    <comp lib="0" loc="(870,660)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(490,780)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="increment"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="1" loc="(1100,740)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(590,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="0" loc="(780,380)" name="Pin">
+      <a name="output" val="true"/>
       <a name="width" val="4"/>
-      <a name="trigger" val="falling"/>
+      <a name="label" val="Balance"/>
+      <a name="labelloc" val="south"/>
+      <a name="labelfont" val="Segoe UI Semilight bold 14"/>
+    </comp>
+    <comp lib="1" loc="(970,660)" name="NOT Gate"/>
+    <comp lib="0" loc="(1120,610)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Clock"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="0" loc="(800,760)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="4" loc="(800,580)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(1120,450)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(190,370)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="Queue Length"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    </comp>
+    <comp lib="0" loc="(860,650)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="3"/>
+      <a name="value" val="0x7"/>
+    </comp>
+    <comp lib="0" loc="(270,410)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B0"/>
+    </comp>
+    <comp lib="0" loc="(850,700)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="1" loc="(920,660)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="1" loc="(700,650)" name="NOT Gate"/>
+    <comp lib="2" loc="(890,770)" name="Multiplexer"/>
+    <comp lib="0" loc="(590,330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B2"/>
+    </comp>
+    <comp lib="0" loc="(850,680)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B2"/>
+    </comp>
+    <comp lib="6" loc="(1150,470)" name="Text">
+      <a name="text" val="Payment Successful"/>
+      <a name="font" val="Segoe UI Symbol bold 13"/>
     </comp>
     <comp lib="0" loc="(1120,540)" name="Pin">
       <a name="facing" val="west"/>
@@ -3016,14 +3039,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
-    <comp lib="0" loc="(590,370)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="B0"/>
-    </comp>
-    <comp lib="0" loc="(490,270)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="decrement"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
+    <comp lib="1" loc="(1040,750)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
   </circuit>
   <circuit name="lane_separation">
@@ -3085,19 +3103,53 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(450,510)" to="(520,510)"/>
     <wire from="(560,520)" to="(570,520)"/>
     <wire from="(590,360)" to="(600,360)"/>
-    <comp lib="6" loc="(606,216)" name="Text">
-      <a name="text" val="Module to pick final lane to direct incoming traffic into"/>
-      <a name="font" val="Segoe UI Symbol bold 16"/>
-    </comp>
-    <comp lib="0" loc="(450,310)" name="Pin">
+    <comp lib="0" loc="(510,580)" name="Constant">
+      <a name="facing" val="north"/>
       <a name="width" val="3"/>
-      <a name="label" val="Lane 3"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(660,350)" name="Ground">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(440,420)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Vehicle type"/>
       <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(600,310)" name="Splitter">
+      <a name="bit0" val="1"/>
+      <a name="bit1" val="0"/>
+    </comp>
+    <comp lib="3" loc="(740,400)" name="Adder">
+      <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(450,540)" name="Pin">
       <a name="width" val="3"/>
       <a name="label" val="Lane 6"/>
       <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="2" loc="(560,520)" name="Multiplexer">
+      <a name="select" val="2"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(450,340)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="Lane 5"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(450,480)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="Lane 2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(770,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="Final Lane (Binary)"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
     </comp>
     <comp lib="2" loc="(550,320)" name="Multiplexer">
       <a name="select" val="2"/>
@@ -3106,29 +3158,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp loc="(660,400)" name="compartor_3_bit">
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="2" loc="(560,520)" name="Multiplexer">
-      <a name="select" val="2"/>
+    <comp lib="0" loc="(450,310)" name="Pin">
       <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(450,480)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="label" val="Lane 2"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(450,340)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="label" val="Lane 5"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(450,510)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="label" val="Lane 4"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(440,420)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Vehicle type"/>
+      <a name="label" val="Lane 3"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(450,280)" name="Pin">
@@ -3148,28 +3180,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit0" val="2"/>
       <a name="bit2" val="0"/>
     </comp>
-    <comp lib="0" loc="(600,310)" name="Splitter">
-      <a name="bit0" val="1"/>
-      <a name="bit1" val="0"/>
+    <comp lib="6" loc="(606,216)" name="Text">
+      <a name="text" val="Module to pick final lane to direct incoming traffic into"/>
+      <a name="font" val="Segoe UI Symbol bold 16"/>
     </comp>
-    <comp lib="0" loc="(770,400)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(450,510)" name="Pin">
       <a name="width" val="3"/>
-      <a name="label" val="Final Lane (Binary)"/>
-      <a name="labelloc" val="east"/>
-      <a name="labelfont" val="Segoe UI Symbol bold 14"/>
-    </comp>
-    <comp lib="0" loc="(660,350)" name="Ground">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="3" loc="(740,400)" name="Adder">
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(510,580)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="width" val="3"/>
-      <a name="value" val="0x0"/>
+      <a name="label" val="Lane 4"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
   </circuit>
 </project>
