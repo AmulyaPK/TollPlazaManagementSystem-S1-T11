@@ -23,8 +23,10 @@
 <details>
   <summary>Detail</summary>
   
+  ### Motivation: 
   Toll plazas often become chaotic due to vehicles switching lanes to save time, and the mix of Fastag and cash users creates additional congestion. While Fastag systems aim to speed up toll collection, cash payments in Fastag lanes slow traffic. Toll facilities help reduce congestion and improve mobility, and provide an additional source of funding for local construction and maintenance projects. Hence, we aimed to create a more streamlined system that satisfies the mentioned functions.
   
+  ### Problem Statement:
   We propose to make a system that reduces toll plaza congestion by segregating vehicles based on Fastag validity, weight, and payment method, while providing dedicated lanes for VIP and emergency vehicles. This system will streamline traffic flow, ensure efficient toll collection, and prioritize immediate passage for high-priority vehicles. Fastag users will experience a faster process with balance and payment checks, while non-Fastag users will be directed to cash lanes, minimizing overall delays.
   
   ### Features:
