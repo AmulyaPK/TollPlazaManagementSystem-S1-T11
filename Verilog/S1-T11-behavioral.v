@@ -1,3 +1,12 @@
+// Design of Digital Systems - Mini Project 2024-25
+// S1-T11: Toll Plaza Management System
+// Team members:
+// 1. Amulya Paathipati Kolar 231CS111
+// 2. Preeti Mondal 231CS144
+// 3. Vanshika Mittal 231CS163
+
+// Toll Plaza Management System Behavioral modelling
+
 module toll_traffic_management (clk, reset, enable, lane1, lane2, lane3, lane4, lane5, lane6, a, b, c, d, priority, common, cash, vhType, selectedLane, flane1, flane2, flane3, flane4, flane5, flane6, truck1_bal, truck2_bal, car1_bal, car2_bal, bike1_bal, bike2_bal);
     input clk, reset, enable;
     input [2:0] lane1, lane2, lane3, lane4, lane5, lane6;

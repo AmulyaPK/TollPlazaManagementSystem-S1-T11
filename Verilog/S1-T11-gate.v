@@ -5,7 +5,7 @@
 // 2. Preeti Mondal 231CS144
 // 3. Vanshika Mittal 231CS163
 
-// Toll Plaza Managemnet System Main-Code
+// Toll Plaza Management System Main-Code
 
 module toll_traffic_management(clk, reset, enable, lane1, lane2, lane3, lane4, lane5, lane6, a, b, c, d, priority, common, cash, vhType, selectedLane, flane1, flane2, flane3, flane4, flane5, flane6, truck1_bal, truck2_bal, car1_bal, car2_bal, bike1_bal, bike2_bal);
     input clk, reset, enable;
@@ -76,7 +76,6 @@ module toll_traffic_management(clk, reset, enable, lane1, lane2, lane3, lane4, l
     assign bike2_bal = bike_bal2;
 endmodule
 
-// TODO
 // determines if a vehicle is a priority vehicle or not
 module vehicle_priority (clk, reset, priority_vehicle, common_vehicle);
     input clk, reset;
@@ -545,14 +544,14 @@ module decoder3_to_8 (in, out, en);
     not (not_in[2], in[2]);
 
     // AND gates to generate outputs
-    and (out[0], not_in[2], not_in[1], not_in[0], en); // 000
-    and (out[1], not_in[2], not_in[1], in[0], en);    // 001
-    and (out[2], not_in[2], in[1], not_in[0], en);     // 010
-    and (out[3], not_in[2], in[1], in[0], en);          // 011
-    and (out[4], in[2], not_in[1], not_in[0], en);      // 100
-    and (out[5], in[2], not_in[1], in[0], en);          // 101
-    and (out[6], in[2], in[1], not_in[0], en);           // 110
-    and (out[7], in[2], in[1], in[0], en);               // 111
+    and (out[0], not_in[2], not_in[1], not_in[0], en);
+    and (out[1], not_in[2], not_in[1], in[0], en);
+    and (out[2], not_in[2], in[1], not_in[0], en);
+    and (out[3], not_in[2], in[1], in[0], en);
+    and (out[4], in[2], not_in[1], not_in[0], en);
+    and (out[5], in[2], not_in[1], in[0], en);
+    and (out[6], in[2], in[1], not_in[0], en);
+    and (out[7], in[2], in[1], in[0], en);
 
 endmodule
 
