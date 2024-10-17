@@ -23,13 +23,13 @@
 <details>
   <summary>Detail</summary>
   
-  ### Motivation: 
+  #### Motivation: 
   Toll plazas often become chaotic due to vehicles switching lanes to save time, and the mix of Fastag and cash users creates additional congestion. While Fastag systems aim to speed up toll collection, cash payments in Fastag lanes slow traffic. Toll facilities help reduce congestion and improve mobility, and provide an additional source of funding for local construction and maintenance projects. Hence, we aimed to create a more streamlined system that satisfies the mentioned functions.
   
-  ### Problem Statement:
+  #### Problem Statement:
   We propose to make a system that reduces toll plaza congestion by segregating vehicles based on Fastag validity, weight, and payment method, while providing dedicated lanes for VIP and emergency vehicles. This system will streamline traffic flow, ensure efficient toll collection, and prioritize immediate passage for high-priority vehicles. Fastag users will experience a faster process with balance and payment checks, while non-Fastag users will be directed to cash lanes, minimizing overall delays.
   
-  ### Features:
+  #### Features:
   1. Separate Lane for VIP and Emergency Vehicles: These vehicles will have a dedicated lane for immediate passage.
   2. General Vehicle Check for Fastag Validity: All general vehicles will be checked for a valid Fastag account (using Luhn’s Algorithm).
      - Vehicles with Fastag will be segregated into lanes based on their weight.
@@ -68,7 +68,9 @@ This project aims to implement an intelligent vehicle lane management system wit
 5. Queue Management and Payment Processing: Upon entering a lane, the vehicle must pay a toll. The system takes the toll amount as input and randomly generates the vehicle’s account balance. If the balance is sufficient, payment is processed successfully, allowing the vehicle to pass and decrementing the queue size. Otherwise, the vehicle remains in the lane until payment is resolved.
 
 #### Flowchart
-![S1-T11-Flowchart](https://github.com/user-attachments/assets/a2ea39b6-1c3d-4e31-8236-0afb8e918e66)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a2ea39b6-1c3d-4e31-8236-0afb8e918e66" width =800/>
+</p>
 
 #### Functional Table
 ![S1-T11-Functional Table](https://github.com/user-attachments/assets/ad29610d-726f-4c59-99e6-045c37e24a9a)
@@ -83,23 +85,47 @@ This project aims to implement an intelligent vehicle lane management system wit
   <summary>Detail</summary>
 
   The [Logisim](https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/tree/main/Logisim) folder consists of the logisim files of the overall Toll Plaza Management circuit.
-  
-  > Steps to use main circuit:
->   1.  Using Priority Vehicle button, indicate whether vehicle is of priority or not
->   2.  Input Vehicle's 16-bit Fastag ID and select Vehicle Type using button
->   3.  Enqueue Vehicle, it will be added to appropriate lane if Fastag verified
->   4.  Update Ticket Price
->   5.  Using Ctrl+K, simulate regular clock pulse to ensure vehicles dequeued at regular frequency
 
+  ```
+  Steps to use main circuit:
+   1.  Using Priority Vehicle button, indicate whether vehicle is of priority or not
+   2.  Input Vehicle's 16-bit Fastag ID and select Vehicle Type using button
+   3.  Enqueue Vehicle, it will be added to appropriate lane if Fastag verified
+   4.  Update Ticket Price
+   5.  Using Ctrl+K, simulate regular clock ticks to ensure vehicles dequeued at regular frequency
+```
 
+  #### Main Circuit Diagram:
   ![S1-T11-Main](https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/blob/main/Snapshots/Logisim%20Circuits/S1-T11-Main.png)
 
+<details>
+  <summary>Additional Module Circuit Diagrams</summary>
+  
+  #### Luhn's Algorithm Module:
+  <p align="center">
+  <img src="https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/blob/main/Snapshots/Logisim%20Circuits/S1-T11-LuhnsAlgorithm.png?raw=true" width=500/>
+  </p>
+
+  #### Lane Separation Module:
+
+   <p align="center">
+  <img src="https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/blob/main/Snapshots/Logisim%20Circuits/S1-T11-LaneSeparator.png?raw=true" width=500/>
+  </p>
+
+  #### Payment Processor Module:
+   <p align="center">
+  <img src="https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/blob/main/Snapshots/Logisim%20Circuits/S1-T11-PaymentProcessor.png?raw=true" width=600/>
+  </p>
+</details>
 </details>
 
 <!-- Fifth Section -->
 ## Verilog Code
 
-  The [Verilog](https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/tree/main/Verilog) folder contains the main verilog file with all modules and functional test bench file. The output file is also included in the same folder.
+<details>
+  <summary>Detail</summary>
+  
+  The [Verilog](https://github.com/Vanshika-Mittal/TollPlazaManagementSystem-S1-T11/tree/main/Verilog) folder contains the main verilog code files with Gate-level and Behavioural Modelling with all modules and functional test bench file. The relevant output files are also included in the same folder.
 
 <details>
   <summary>Gateflow Modelling</summary>
@@ -1215,6 +1241,8 @@ module toll_traffic_management_tb;
 endmodule
 
 ```
+</details>
+
 </details>
 
 ## References
