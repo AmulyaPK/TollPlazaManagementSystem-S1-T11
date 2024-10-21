@@ -210,31 +210,6 @@ module toll_traffic_management(clk, reset, enable, lane1, lane2, lane3, lane4, l
     assign bike2_bal = bike_bal2;
 endmodule
 
-// determines if a vehicle is a priority vehicle or not
-module vehicle_priority (clk, reset, priority_vehicle, common_vehicle);
-    input clk, reset;
-    output priority_vehicle, common_vehicle;
-
-    reg q1, q0;
-
-    always @(posedge clk or posedge reset) begin
-        if (reset) begin
-            q1 <= 0;
-            q0 <= 0;
-        end else begin
-            if (q0 == 1) begin
-                q0 <= 0;
-                q1 <= ~q1;
-            end else begin
-                q0 <= q0 + 1;
-            end
-        end
-    end
-
-    assign priority_vehicle = (~q1) & q0;
-    assign common_vehicle = ~priority_vehicle;
-endmodule
-
 // validating fastag IDs
 module luhn_gate (a, b, c, d, enable, valid);
     input [3:0] a, b, c, d;
