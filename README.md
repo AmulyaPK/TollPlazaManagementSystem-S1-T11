@@ -1220,6 +1220,22 @@ endmodule
 
 </details>
 
+## Hardware Implementation
+<details>
+  <summary>Detail</summary>
+
+  We primarily focused on implementing the lane enqueue and dequeue logic in our circuit in the final implementation as it was our most primary feature. We scaled-down to 2-bit counters for the lanes, 4 lanes     and 2 vehicle types in our final circuit. The simplified small-scale circuit diagram that we implemented in hardware:
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/a9842c45-8449-49a6-80fa-502a6ca5899d" width =700/>
+  </p>
+
+  Demo video of final hardware implementation of circuit:
+
+  https://github.com/user-attachments/assets/19cc38ec-b0a2-4c86-abec-0c8af2a66e0b
+
+
+</details>
+
 ## References
 <details>
   <summary>Detail</summary>
